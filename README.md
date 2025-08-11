@@ -1,0 +1,1 @@
+# PDF-to-JPG-conversion-using-PHP-imagick-extension-
