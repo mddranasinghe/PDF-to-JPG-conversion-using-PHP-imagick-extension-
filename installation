@@ -1,0 +1,23 @@
+sudo apt-get update
+sudo apt-get install imagemagick ghostscript
+
+sudo apt-get install php5-imagick
+sudo service apache2 restart
+
+
+
+sudo nano /etc/ImageMagick/policy.xml
+
+enable this 2.......................
+
+
+<policy domain="coder" rights="read|write" pattern="PDF" />
+<policy domain="coder" rights="read|write" pattern="{PDF,XPS}" />
+
+
+
+
+requirements-------------------
+
+php verion 5.5.9 
+jquery-1.11.0
